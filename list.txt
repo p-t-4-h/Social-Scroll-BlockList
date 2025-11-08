@@ -1,4 +1,13 @@
-instagram.com##div[role="presentation"]
-instagram.com##section:has(a[href*="/reels/"])
-youtube.com##ytd-rich-section-renderer:has(a[href*="/shorts/"])
-youtube.com##ytd-rich-grid-row:has(a[href*="/shorts/"])
+youtube.com##ytd-rich-grid-row:has(a[href^="/shorts"])
+youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts"])
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##a[href^="/shorts"]
+
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+youtube.com##tp-yt-paper-item:has(a[href^="/shorts"])
+
+instagram.com##a[href*="/reels/"]
+instagram.com##section > div > div:has(a[href*="/reels/"])
+instagram.com##div[role="presentation"] video[src*="reel"]
+instagram.com##div:has(h2:has-text(Reels))
+instagram.com##div:has(span:has-text(Reels))
