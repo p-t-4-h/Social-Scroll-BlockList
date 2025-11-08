@@ -1,0 +1,4 @@
+instagram.com##div[role="presentation"]
+instagram.com##section:has(a[href*="/reels/"])
+youtube.com##ytd-rich-section-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-rich-grid-row:has(a[href*="/shorts/"])
