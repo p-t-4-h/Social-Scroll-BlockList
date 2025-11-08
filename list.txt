@@ -7,6 +7,9 @@ youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-guide-entry-renderer[is-shorts]
 youtube.com##a[href^="/shorts"]
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##a[href^="/shorts/"] { display: none !important; pointer-events: none !important; }
+youtube.com##video#movie_player { autoplay: 0 !important; muted: 1 !important; }
 
 ! Instagram Reels (version web)
 instagram.com##a[href*="/reels/"]
@@ -14,3 +17,5 @@ instagram.com##[href="/reels/"]
 instagram.com##nav a[href="/reels/"]
 instagram.com##svg[aria-label="Reels"]
 instagram.com##button[aria-label="Reels"]
+instagram.com##div[role="presentation"] video { display: none !important; visibility: hidden !important; pointer-events: none !important; }
+instagram.com##a[href*="/reels/"] { display: none !important; }
